@@ -6,6 +6,4 @@ Note: I was not focused on browser compatability when I made this game. It turns
 
 This is my first javascript web app
 
-The web app is hosted thanks to gituhub at: https://anamavahora.github.io/ColorGuessingGame/
-
 How to Play: You are given an rgb color code, from this code pick the color to which it corresponds.
