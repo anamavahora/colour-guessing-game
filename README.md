@@ -1,8 +1,5 @@
 # 🎨 RGB Color Guessing Game
 
-[🔗 Live Demo](https://anamavahora.github.io/colour-guessing-game/)  
-*A fully playable version online!*
-
 A fun color guessing game where you try to match a randomly chosen RGB value to its correct color square.
 
 > ⚠️ **Note:** This game originally had a bug in Firefox where correct guesses weren't recognized. It’s now fixed using `getComputedStyle()` and proper color normalization in JavaScript.
