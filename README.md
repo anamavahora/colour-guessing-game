@@ -43,3 +43,5 @@ Previously, the game wouldn't recognize correct guesses in **Firefox** due to di
 - Replaced the unreliable:
   ```js
   var clickedColor = element.style.background;
+
+  
