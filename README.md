@@ -1,75 +1,45 @@
-# colour-guessing-game
+# 🎨 RGB Color Guessing Game
 
-A color guessing game based on the rgb color code
+A fun color guessing game where you try to match a randomly chosen RGB value to its correct color square.
 
-Note: I was not focused on browser compatability when I made this game. It turns out that it will not tell you if you guess correctly on firefox.
+> ⚠️ **Note:** This game originally had a bug in Firefox where correct guesses weren't recognized. It’s now fixed using `getComputedStyle()` and proper color normalization in JavaScript.
 
-How to Play: You are given an rgb color code, from this code pick the color to which it corresponds.
+---
 
+## 🕹️ How to Play
 
-# ColorGame
+1. You'll see an RGB color code like `rgb(255, 0, 0)` at the top of the page.
+2. Click one of the color squares to guess which one matches the RGB code.
+3. If you guess right – 🎉 “Correct!” will appear and all squares will change to that color.
+4. If your guess is wrong, the square will disappear and you can try again.
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/anamavahora/ColorGame">
-    <img src="images/readme.png" alt="Logo" width="80" height="80">
-  </a>
+---
 
-  <h3 align="center">Color Game Project-README</h3>
+## 🎯 Features
 
-  <p align="center">
-    An intresting Game to boost Konwledge of Colors 
-    <br />
-    <a href="https://github.com/anamavahora/ColorGame/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/anamavahora/ColorGame/issues">Request Feature</a>
-  </p>
-</p>
+- **Difficulty Modes**:  
+  - **Easy**: 3 color choices  
+  - **Hard**: 6 color choices
+- **Random Colors** every game
+- **Play Again** button after a correct guess
+- Responsive and lightweight
 
+---
 
+## 🛠 Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-The RGB Color Game is a simple project developed using JavaScript, CSS, and HTML. This project is an interesting color guessing game. The user/player has to guess the result of the given RGB color combination and find the correct output of the color mixture. The user can guess the color until the option finishes.  
+---
 
-The Game has two levels:
-* easy
-* hard
+## 🐛 Fixed Firefox Compatibility
 
-:large_orange_diamond::large_orange_diamond::large_orange_diamond::large_orange_diamond::large_orange_diamond:
+Previously, the game wouldn't recognize correct guesses in **Firefox** due to differences in how color values are read.
 
-* Guess the color :dart:
-![Guess the Color](https://github.com/anamavahora/ColorGame/blob/master/images/guessColor.png?raw=true)
+### 🔧 Fix Details:
 
-* Guessed the correct color :collision:
-![Guessed the color](https://github.com/anamavahora/ColorGame/blob/master/images/colorGuessed.png?raw=true)
-
-
-
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* Vanilla JavaSctipt
-* HTML
-* CSS
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- CONTACT -->
-## Contact
-
-
-Project Link: [https://github.com/anamavahora/ColorGame](https://github.com/anamavahora/ColorGame)
+- Replaced the unreliable:
+  ```js
+  var clickedColor = element.style.background;
