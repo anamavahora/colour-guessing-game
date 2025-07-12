@@ -1,8 +1,7 @@
 # 🎨 RGB Color Guessing Game
 
-[🔗 Live Demo](https://your-live-demo-url.com)  
+[🔗 Live Demo](https://yourusername.github.io/colour-guessing-game/)  
 *A fully playable version online!*
-
 
 A fun color guessing game where you try to match a randomly chosen RGB value to its correct color square.
 
