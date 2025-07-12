@@ -12,7 +12,7 @@ How to Play: You are given an rgb color code, from this code pick the color to w
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/govindk11/ColorGame">
+  <a href="https://github.com/anamavahora/ColorGame">
     <img src="images/readme.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,9 +20,6 @@ How to Play: You are given an rgb color code, from this code pick the color to w
 
   <p align="center">
     An intresting Game to boost Konwledge of Colors 
-    <br />
-    <a href="https://colorgamebyanamavahora.netlify.app/"><strong>View Demo »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/anamavahora/ColorGame/issues">Report Bug</a>
     ·
@@ -34,8 +31,6 @@ How to Play: You are given an rgb color code, from this code pick the color to w
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[Also Check The Game Here](https://colorgamebyanamavahora.netlify.app/) 
 
 The RGB Color Game is a simple project developed using JavaScript, CSS, and HTML. This project is an interesting color guessing game. The user/player has to guess the result of the given RGB color combination and find the correct output of the color mixture. The user can guess the color until the option finishes.  
 
